@@ -1,7 +1,5 @@
 import pyodbc
 
-#Este código es de la materia de Ingeniería de Software de la Maestría en Ciencias de la Información
-
 connection = pyodbc.connect('DRIVER={SQL Server};SERVER=DESKTOP-EMIMIIB\SQLEXPRESS;DATABASE=Empresa;UID=sa;PWD=000000')
 
 opc = "0"
