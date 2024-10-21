@@ -1,5 +1,7 @@
 import pyodbc
 
+#Cambio número 2
+
 connection = pyodbc.connect('DRIVER={SQL Server};SERVER=DESKTOP-EMIMIIB\SQLEXPRESS;DATABASE=Empresa;UID=sa;PWD=000000')
 
 opc = "0"
